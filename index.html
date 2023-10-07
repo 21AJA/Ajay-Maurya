@@ -16,7 +16,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#Home" class="nav__logo">Ajay Maurya</a>
+                    <a href="#Home" class="nav__logo">Portfolio</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -50,7 +50,6 @@
                     <a href="https://twitter.com/Ajaykum37311275?t=YqK8-hOelVv_wQMBvnWn6w&s=09" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
                     <a href="https://github.com/21AJA" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
-
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <mask id="mask0" mask-type="alpha">
@@ -189,10 +188,13 @@
                 <div class="contact__container bd-grid">
                     <form id="contact-form" name="contact-form" action="https://api.web3forms.com/submit" method="POST" class="contact__form">
                         <input type="hidden" name="access_key" value="0c6d99ba-6fcc-4a5a-9a36-d5e54d059444">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="text" name="Name" required placeholder="Full name" class="contact__input">
+                        <input type="email" name="email" placeholder="xyz@gmail.com" required class="contact__input">
+                        <textarea name="message" required placeholder="Write here your message.."  id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <center><div class="buttonn">
+                        <input type="reset" value="Reset" class="contact__button button">
                         <button type="submit" class="contact__button button">Send</button>
+                        </div></center>
                     </form>
                 </div>
             </section>
@@ -206,7 +208,7 @@
                 <a href="https://www.instagram.com/blue_space_black_color/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://twitter.com/Ajaykum37311275?t=YqK8-hOelVv_wQMBvnWn6w&s=09" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+
         </footer>
 
 

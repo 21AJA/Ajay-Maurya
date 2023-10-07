@@ -163,6 +163,8 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+  font-size:var(--h2-font-size);
+  color: var(--first-color);
 }
 
 .nav__toggle {
@@ -396,6 +398,11 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  margin-right: auto;
+}
+.buttonn{
+     display: inline-flex;
+      
 }
 
 /* ===== FOOTER =====*/
